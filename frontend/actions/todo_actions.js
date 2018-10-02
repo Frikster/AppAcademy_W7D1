@@ -10,21 +10,3 @@ export const receiveTodos = (todos) => ({
   type: RECEIVE_TODOS,
   todos
 });
-
-const newTodos = {
-  1: {
-    id: 3,
-    title: 'wash house',
-    body: 'with soap',
-    done: false
-  },
-  2: {
-    id: 4,
-    title: 'wash carpet',
-    body: 'with shampoo',
-    done: true
-  },
-};
-window.receiveTodo = receiveTodo;
-window.receiveTodos = receiveTodos;
-window.newTodos = newTodos;

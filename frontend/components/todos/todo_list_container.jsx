@@ -1,6 +1,7 @@
 import {connect} from 'react-redux';
-import toDoList from './todo_list';
+import ToDoList from './todo_list';
 import React from 'react';
+// debugger;
 import { receiveTodo, receiveTodos } from '../../actions/todo_actions';
 
 
@@ -15,4 +16,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TodoList);
+)(ToDoList);
